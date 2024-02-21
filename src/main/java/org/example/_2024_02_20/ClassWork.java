@@ -57,6 +57,12 @@ public class ClassWork {
             count1++;
         } while (count1 < 11);              // затем проверяется условие
 
+    for (int i=0; i<6;i++) {
+        System.out.println(i);
+    }
+
+
+
 
     }
 }
