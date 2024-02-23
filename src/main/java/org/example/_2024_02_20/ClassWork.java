@@ -2,30 +2,30 @@ package org.example._2024_02_20;
 
 public class ClassWork {
     public static void main(String[] args) {
-        byte byteValue = 10; //(-128 +127)
-        short shortValue = 500; // (-32000 +32000)
-        int intValue = 1000000; //(-2 000 000 000 +2 000 000 000) 2^32
-        long longValue = 100000000000l;//(-9*10^18  +*10^18) 2^64
+        byte byteValue = 10; //(-128 +127) один байт памяти, выгодно использовать, чтоб хранить маленькое число
+        short shortValue = 500; // (-32000 +32000) 2 байта памяти
+        int intValue = 1000000; //(-2 000 000 000 +2 000 000 000) 2^32  4 байта памяти
+        long longValue = 100000000000l;//(-9*10^18  +*10^18) 2^64 8 байт памяти
 
         //можно создать переменную и не присваивать ей значение, но для этого должна быть причина
         //float floatValue;
         //для дробных чисел типы данных
         float floatValue = 36.666666666f;
-        double doubleValue = 36.6666666666;
+        double doubleValue = 36.6666666666; //в два раза больше цифр после точки
 
 
         System.out.println(floatValue);
         System.out.println(doubleValue);
 
 
-        char charValue = 'c'; //2 байта, только одинарные кавычки ставим для char.
+        char charValue = 'c'; //2 байта, только одинарные кавычки ставим для char. Хранит лишь один символ
         // char - тип данных для символов
 
         boolean booleanValue = true; // 1 байт
 
         System.out.println(charValue);
 
-        String string = "Hello";
+        String string = "Hello"; //Хранит множество символов
 
 
         int countDown = 10;
