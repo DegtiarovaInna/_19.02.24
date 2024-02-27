@@ -92,8 +92,7 @@ public class HomeWork1_2 {
 //            2.используя цикл do-while
 //            3.используя цикл for
 //
-//    Пример факториала числа 5 = 1 * 2 * 3 * 4 * 5 = 120;
-//    числа 3 = 1 * 2 * 3  = 6;
+
 
     public static int factorialFor(){
         Scanner scanner = new Scanner(System.in);
@@ -111,13 +110,13 @@ public class HomeWork1_2 {
         Scanner scanner = new Scanner(System.in);
         double number = scanner.nextDouble();
 
-        int res = 1;
+        int result = 1;
         int i =1;
         do  {
-            res *= i;
+            result *= i;
             i++;
         } while (i<=number);
-        return res;
+        return result;
     }
 
     public static int factorialWhile(){
