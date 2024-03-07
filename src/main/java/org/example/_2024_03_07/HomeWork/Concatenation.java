@@ -1,4 +1,4 @@
-package org.example._2024_03_07.HomeWork;
+package org.example._2024_03_07.HomeWork3;
 //Создайте класс Concatenation
 //Создайте две переменные типа String
 //Примените конкатенацию строк и выведите результат в консоль.

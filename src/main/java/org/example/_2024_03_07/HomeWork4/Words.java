@@ -5,8 +5,7 @@ import java.util.Scanner;
 //Введите 2 слова, воспользуйтесь сканером, состоящие из четного количества букв (проверьте количество букв в слове).
 //Нужно получить слово, состоящее из первой половины первого слова и второй половины второго слова. распечатать на консоль.
 //Например:
-//ввод - mama, papa
-//вывод - mapa
+//ввод - mama, papa /вывод - mapa
 public class Words {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

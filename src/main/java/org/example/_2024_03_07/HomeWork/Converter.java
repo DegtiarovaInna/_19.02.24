@@ -1,4 +1,4 @@
-package org.example._2024_03_07.HomeWork;
+package org.example._2024_03_07.HomeWork3;
 
 import java.util.Scanner;
 //Создайте класс Converter - конвертер системы счисления.
